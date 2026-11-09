@@ -5,20 +5,20 @@
    ========================================================= */
 
 :root {
-  /* ---------- PALETA DO CLIENTE — Outlet das Tintas (azul-marinho / laranja) ---------- */
-  --bg-page:   #001a40;   /* fundo atrás da coluna (azul-marinho)     */
-  --bg:        #002454;   /* fundo da coluna / página          */
-  --card:      #0a3268;   /* cards claros (produtos, feed)     */
-  --card-2:    #113d7a;   /* botões redondos das redes         */
-  --card-dark: #ff7f00;   /* cards de contraste (CTA) — laranja */
+  /* ---------- PALETA DO CLIENTE — Tintas e Cia (vinho / vermelho / amarelo) ---------- */
+  --bg-page:   #2a060e;   /* fundo atrás da coluna (vinho escuro)     */
+  --bg:        #420b17;   /* fundo da coluna / página          */
+  --card:      #5a1222;   /* cards claros (produtos, feed)     */
+  --card-2:    #70192c;   /* botões redondos das redes         */
+  --card-dark: #c8102e;   /* cards de contraste (CTA) — vermelho */
 
-  --text:      #f4f7fb;   /* texto principal                  */
-  --text-dim:  #c9d6e8;   /* texto secundário                 */
-  --text-mute: #9fb3cf;   /* rótulos / legendas              */
-  --on-dark:   #1c1002;   /* texto sobre os cards de contraste (escuro sobre laranja) */
+  --text:      #fdf6f3;   /* texto principal                  */
+  --text-dim:  #efd5d6;   /* texto secundário                 */
+  --text-mute: #d9b3b6;   /* rótulos / legendas              */
+  --on-dark:   #2a060e;   /* texto sobre fundos amarelos      */
 
-  --accent:      #ff7f00; /* cor de marca (laranja)       */
-  --accent-2:    #d96500; /* variação mais escura            */
+  --accent:      #ffd400; /* cor de marca (amarelo da logo)  */
+  --accent-2:    #d9b200; /* variação mais escura            */
 
   --wa:        #4f8a4c;   /* verde do card de WhatsApp (dessaturado) */
   --wa-2:      #3c6b3a;
@@ -132,7 +132,7 @@ a { color: inherit; text-decoration: none; }
   color: var(--text);
   transition: transform .15s ease, background .15s ease;
 }
-.social-btn:hover { background: #2c2a26; transform: translateY(-2px); }
+.social-btn:hover { background: var(--card); transform: translateY(-2px); }
 .social-btn svg { width: 20px; height: 20px; }
 
 /* ---------- CTA / Quiz ---------- */
@@ -234,7 +234,7 @@ a { color: inherit; text-decoration: none; }
   border-radius: 7px;
   display: inline-flex; align-items: center; justify-content: center;
   background: var(--accent);
-  color: #fff;
+  color: var(--on-dark);
   flex-shrink: 0;
 }
 .section-label__ig svg { width: 14px; height: 14px; }

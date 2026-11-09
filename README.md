@@ -3,7 +3,7 @@
 Template de página "link na bio" (estilo linktree) para reutilizar com clientes.
 HTML + CSS + JS estáticos, coluna mobile centralizada, deploy no GitHub Pages.
 
-Cliente: **Outlet das Tintas São Luís** (unidade Cohama).
+Cliente: **Tintas e Cia** (unidade Holandeses).
 
 ## Como usar para um novo cliente
 
